@@ -1,0 +1,774 @@
+@charset "UTF-8";
+
+
+#content_1 {
+  width: 1080px;
+  height: 460px;
+  margin: 20px auto 0;
+  position: relative;
+}
+
+#content_1_wrap {
+  width: 1080px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide_wrap {
+  width: 1080px;
+  height: 370px;
+  border: 10px solid #e5eff7;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 9720px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  list-style: none;
+}
+
+.slide li {
+  width: 1080px;
+  height: 360px;
+  float: left;
+}
+
+#round {
+  width: 1080px;
+  height: 60px;
+  text-align: center;
+  background-color: #e5eff7;
+}
+
+#round ul {
+  width: 1080px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#round ul li {
+  width: 100px;
+  border-radius: 100px;
+  background: #e5eff7;
+  cursor: pointer;
+  display: block;
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+
+#round ul li:first-child {
+  color: #fff;
+  background: #0f4e8a;
+}
+
+.bookSlide_1 {
+  width: 1060px;
+  height: 360px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bookSlide_1>div {
+  width: 230px;
+  height: 320px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bookSlide_1>div>img {
+  width: 175px;
+  height: 257px
+}
+
+.bookSlide_2 {
+  width: 1060px;
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookSlide_2>div {
+  width: 320px;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bookSlide_2 img {
+  width: 260px;
+}
+
+
+/* 여기까지 */
+
+
+/*메인 슬라이드 아래 content_2*/
+
+#content_2 {
+  width: 1080px;
+  height: 360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#content_2 .selectBook {
+  width: 750px;
+  height: 360px;
+}
+
+.selectBook_top {
+  width: 750px;
+  height: 50px;
+  border-bottom: 1px solid #dadada;
+  display: flex;
+}
+
+.selectBook_menu_left {
+  width: 700px;
+  height: 50px;
+}
+
+.selectBook_menu_left a {
+  text-decoration: none;
+  color: #444
+}
+
+.editor_tap li {
+  float: left;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 10px 0 0;
+  background-color: #EDEFF1;
+}
+
+.editor_tap .on {
+  border: 1px #dadada solid;
+  border-bottom: none;
+  background-color: #f8f8f8;
+}
+
+.editor_tap .linebot {
+  border: 1px #dadada solid;
+  border-bottom: none;
+  background-color: #fff;
+}
+
+.editor_btn {
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #e1e596; */
+}
+
+.selectBook_middle {
+  width: 750px;
+  height: 310px;
+  display: flex;
+  background-color: #f8f8f8;
+}
+
+.select_middle_wrap {
+  width: 750px;
+  height: 310px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+.select_middle {
+  width: 2280px;
+  height: 310px;
+  position: absolute;
+  display: flex;
+}
+
+.editor {
+  width: 750px;
+  height: 310px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.editor>div {
+  width: 180px;
+  height: 300px;
+  /* background-color: #eee; */
+  text-align: center;
+}
+
+.editor>div img {
+  width: 136px;
+  height: 202px;
+}
+
+
+.e4>div {
+  width: 240px;
+  height: 300px;
+}
+
+.e4>div img {
+  width: 240px;
+  height: 240px;
+}
+
+.e2 {
+  width: 750px;
+  height: 310px;
+  /* background-color: #9ed359; */
+}
+
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#content_2 .adBanner {
+  width: 305px;
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+}
+
+.spantext{  
+  position:absolute;
+  right:0;
+  margin:15px 15px 0 0;
+}
+
+
+.ad_wrap {
+  width: 610px;
+  height: 360px;
+  display: flex;
+}
+
+.spantext {color:#555; font-size: 11px; font-weight: bold;}
+
+
+/* 베스트셀러 TOP 10 */
+#content_3 {
+  width: 1080px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#content_3 a {
+  text-decoration: none;
+  color: #444;
+}
+
+#content_3 .bestseller {
+  width: 330px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book_img {
+  width: 80px;
+  height: 116px;
+}
+
+.book_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book_num {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book_info {
+  width: 220px;
+  height: 120px;
+  padding-left: 20px;
+  /* background-color: #00b2A3; */
+}
+
+
+/* 풀 배너 */
+
+#full_ban {
+  width: 100%;
+  height: 100px;
+  margin: 100px auto 30px;
+  /* background-color: #CCF1F7; */
+  background-color: #f7e0cc;
+  display: flex;
+  align-items: flex-end;
+}
+
+#full_ban .hidden {
+  display: none;
+}
+
+.full_ban_wrap {
+  width: 1030px;
+  height: 130px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.full_ban_box {
+  width: 1030px;
+  height: 130px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  display: flex;
+}
+
+.full_ban_btn {
+  width: 1030px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+}
+
+.ban_btn {
+  width: 30px;
+  height: 30px;
+  background-color: #444;
+  opacity: 0.7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ban_btn:hover {
+  cursor: pointer;
+}
+
+.ban_btn img {
+  width: 15px;
+  height: 15px;
+}
+
+/* 추천 마법사 */
+
+.booktitle {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 10px 0;
+  color: #444;
+}
+
+.author {
+  font-size: 12px;
+  color: #777;
+}
+
+.price {
+  font-size: 12px;
+  color: #a7a7a7;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+
+#content_4 {
+  width: 1080px;
+  height: 370px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content4_wrap {
+  width: 1080px;
+  height: 370px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.bookinfo_wrap4 {
+  width: 2180px;
+  height: 370px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.bookinfo_wrap4>.bookinfo {
+  width: 200px;
+  height: 350px;
+}
+
+.bookinfo_wrap4>.bookinfo>img {
+  width: 200px;
+}
+
+/* 화제의 책 소식 */
+
+#content_5 {
+  width: 1080px;
+  height: 280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#content_5 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.content5_wrap {
+  width: 1080px;
+  height: 280px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.itbook_wrap {
+  width: 3240px;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.itbook_info {
+  width: 1080px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.itbook_box {
+  width: 530px;
+  height: 280px;
+  position: relative;
+  background-color: #e3e3e3;
+  display: flex;
+}
+
+
+.itbook_lt {
+  width: 180px;
+  height: 270px;
+  /* background-color: #5c6a6e; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itbook_lt img {
+  width: 136px;
+  height: 202px;
+}
+
+.itbook_rt {
+  width: 350px;
+  height: 280px;
+  /* background-color: #d9dad5; */
+}
+
+.itbook_rt div:first-child {
+  width: 350px;
+  height: 90px;
+  /* background-color: #e693c2; */
+  padding: 35px 30px 0 0;
+  box-sizing: border-box;
+}
+
+.itbook_text {
+  padding: 20px 30px 0 0;
+  font-size: 12px;
+  line-height: 20px;
+  color: #333
+}
+
+.itbook_title {
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+
+
+
+/* 알라딘이 만든 사은품 */
+
+#content_6 {
+  width: 1080px;
+  height: 210px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content6_wrap {
+  width: 1080px;
+  height: 210px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.make_goods_wrap {
+  width: 4320px;
+  height: 210px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.make_goods {
+  width: 1080px;
+  height: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.make_goods>div {
+  width: 355px;
+  height: 210px;
+  position: relative;
+}
+
+.make_goods>div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.goods_info {
+  width: 355px;
+  height: 210px;
+  position: absolute;
+  background-color: #2b2b2b;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  display: none;
+}
+
+.make_goods p {
+  position: absolute;
+  height: 50px;
+  font-size: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.8;
+  color: #fff;
+  display: none;
+}
+
+
+/* 이달의 주목 도서 */
+
+#content_7 {
+  width: 1080px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content7_wrap {
+  width: 1080px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.bookinfo_wrap {
+  width: 2180px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.bookinfo_wrap>.bookinfo {
+  width: 200px;
+  height: 350px;
+}
+
+.bookinfo_wrap>.bookinfo>img {
+  width: 200px;
+}
+
+/* 알라딘 굿즈 증정 */
+#content_8 {
+  width: 1080px;
+  height: 210px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content8_wrap {
+  width: 1080px;
+  height: 210px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.goods_wrap {
+  width: 4320px;
+  height: 210px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.goods {
+  width: 1080px;
+  height: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* 버튼 스타일 시작 ======================*/
+
+.btn_prev40 {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  left: -17px;
+  z-index: 7;
+}
+
+.btn_next40 {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  right: -17px;
+  z-index: 7;
+}
+
+.btn_prev50 {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -17px;
+  z-index: 10;
+}
+
+.btn_next50 {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -17px;
+  z-index: 10;
+}
+
+.btn_prev2a {
+  width: 25px;
+  height: 25px;
+  z-index: 10;
+}
+
+.btn_next2a {
+  width: 25px;
+  height: 25px;
+  z-index: 10;
+}
+
+.btn_prev2a img:hover {
+  cursor: pointer;
+}
+
+.btn_next2a img:hover {
+  cursor: pointer;
+}
+
+.btn_prev2b {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  z-index: 10;
+}
+
+.btn_next2b {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.btn_prev img:hover {
+  cursor: pointer;
+}
+
+.btn_next img:hover {
+  cursor: pointer;
+}
+
+.btn_prev img {
+  width: 35px;
+  height: 35px;
+}
+
+.btn_next img {
+  width: 35px;
+  height: 35px;
+}
